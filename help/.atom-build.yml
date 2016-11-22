@@ -1,0 +1,6 @@
+cmd: "jenkins-pipeline"
+args:
+  - "--file {FILE_ACTIVE}"
+  - "--url http://localhost:8080/job/test-pipeline/"
+  - "--credentials admin:abc123"
+sh: true

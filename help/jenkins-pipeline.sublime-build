@@ -1,0 +1,4 @@
+{
+    "cmd": ["jenkins-pipeline --file $file_name --url http://localhost:8080/job/test-pipeline/ --credentials admin:abc123"],
+    "shell" : true
+}
