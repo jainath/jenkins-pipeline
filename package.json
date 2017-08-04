@@ -1,6 +1,6 @@
 {
   "name": "jenkins-pipeline",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Execute groovy pipeline code in remote jenkins server and monitor the output in client console.",
   "main": "index.js",
   "scripts": {
@@ -8,14 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jacob4madhu/jenkins-pipeline.git"
+    "url": "git+https://github.com/jainath/jenkins-pipeline.git"
   },
   "keywords": [
     "jenkins",
     "pipeline",
-    "groovy"
+    "groovy",
+    "pipeline-ide"
   ],
-  "author": "Jacob",
+  "author": "Jainath Ponnala",
   "license": "MIT",
   "dependencies": {
     "commander": "^2.9.0",
@@ -25,10 +26,10 @@
     "single-line-log": "^1.1.2"
   },
   "bugs": {
-    "url": "https://github.com/jacob4madhu/jenkins-pipeline/issues"
+    "url": "https://github.com/jainath/jenkins-pipeline/issues"
   },
   "bin": {
     "jenkins-pipeline": "index.js"
   },
-  "homepage": "https://github.com/jacob4madhu/jenkins-pipeline#readme"
+  "homepage": "https://github.com/jainath/jenkins-pipeline#readme"
 }
